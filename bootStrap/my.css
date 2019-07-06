@@ -19,3 +19,9 @@ html,body{
 	width: 100%;
 	background-color: aliceblue;
 }
+span.closeX {
+	
+}
+.closeX:hover{
+	color:red;
+}

@@ -3,7 +3,7 @@ $(document).ready(function () {
         let id = $(this).attr("id");
         if($(`#${id}.nav-link`).length===0){
             const text = "<li  class=\"nav-item \">\n" +
-                "                    <a class=\"nav-link \" id=\""+id+"\" onclick='select(this)' href=\"#\">"+ $(this).text()+"<button class=\"btn-sm rounded btn-danger\" href=\"###\" onclick='this.parentNode.parentNode.removeChild(this.parentNode);'>X</button> </a>\n" +
+                "                    <a class=\"nav-link \" id=\""+id+"\" onclick='select(this)' href=\"#\">"+ $(this).text()+"<span class=\"closeX\" href=\"###\" onclick='this.parentNode.parentNode.removeChild(this.parentNode);'>X</div> </a>\n" +
                 "                </li>";
             $("#h").append(text);
         }
