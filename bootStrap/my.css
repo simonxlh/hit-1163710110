@@ -1,5 +1,21 @@
+html,body{
+	height:100%;
+}
+.bg-dark {
+	background-color: #343a40!important;
+	height: 70px;
+}
+.myrow{
+	height:100%;
+}
+.mycon{
+	height: calc(100vh - 70px);
+}
+.mynav{
+	height:50px;
+}
 .mainArea {
-    height:100%;
-    width: 100%;
-    margin-top: 20px;
+	height: calc(100% - 50px);
+	width: 100%;
+	background-color: aliceblue;
 }

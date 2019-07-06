@@ -18,7 +18,7 @@ function select(args) {
     switch ($(args).attr("id")) {
         case "codeManagement":
             $(this).attr("class","nav-link active");
-            $(".mainArea").css("background-color","yellow");
+            $(".mainArea").css("background-color","aliceblue");
             $(".mainArea").append("<p> 这是编码管理!</p>")
             break;
         case "bomManagement":
